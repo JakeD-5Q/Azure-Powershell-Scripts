@@ -1,14 +1,3 @@
-Microsoft.PowerShell_profile.ps1
-# Location shortcuts ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$apps = "C:\Users\JakeDerkowski\OneDrive\Apps"
-$school = "C:\Users\JakeDerkowski\OneDrive\SHSU"
-$mydocs = "C:\Users\JakeDerkowski\OneDrive\Documents"
-$mycloud = "C:\Users\JakeDerkowski\OneDrive"
-$5q = "C:\Users\JakeDerkowski\OneDrive - 5Q Cloud"
-$coding = "C:\Users\JakeDerkowski\OneDrive\Programming"
-$ipcheck = "C:\Users\JakeDerkowski\OneDrive - 5Q Cloud\Apps\mySOCTools\ipinfo\check_ip.py"
-$ipinfo = "C:\Users\JakeDerkowski\OneDrive\Apps\IP-tools\ip_total_info.py"
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Location shortcuts
 
 function Get-Loc {
     Split-Path -leaf -path (Get-Location)
